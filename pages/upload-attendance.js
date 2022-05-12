@@ -12,7 +12,7 @@ import {
   Alert,
 } from "reactstrap";
 import React, { useState, useEffect } from "react";
-import checkauthenticated from "../../services/checkauthenticated";
+import checkauthenticated from "../services/checkauthenticated";
 
 const Forms = () => {
   const [visible, setVisible] = useState(true);

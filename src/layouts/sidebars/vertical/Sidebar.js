@@ -12,12 +12,12 @@ const navigation = [
   },
   {
     title: "Upload attendance",
-    href: "/ui/forms",
+    href: "/upload-attendance",
     icon: "bi bi-textarea-resize",
   },
   {
     title: "Attendance record",
-    href: "/ui/tables",
+    href: "/attendance-worksheet",
     icon: "bi bi-layout-split",
   },
   // {

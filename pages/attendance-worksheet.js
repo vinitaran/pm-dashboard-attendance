@@ -1,6 +1,6 @@
 import { Row, Col, Table, Card, CardTitle, CardBody } from "reactstrap";
-import ProjectTables from "../../src/components/dashboard/ProjectTable";
-import checkauthenticated from "../../services/checkauthenticated";
+import ProjectTables from "../src/components/dashboard/ProjectTable";
+import checkauthenticated from "../services/checkauthenticated";
 
 const Tables = () => {
   checkauthenticated();
@@ -15,7 +15,7 @@ const Tables = () => {
       {/* --------------------------------------------------------------------------------*/}
       {/* table-2*/}
       {/* --------------------------------------------------------------------------------*/}
-      <Col lg="12">
+      {/* <Col lg="12">
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <i className="bi bi-card-text me-2"> </i>
@@ -54,11 +54,11 @@ const Tables = () => {
             </Table>
           </CardBody>
         </Card>
-      </Col>
+      </Col> */}
       {/* --------------------------------------------------------------------------------*/}
       {/* table-3*/}
       {/* --------------------------------------------------------------------------------*/}
-      <Col lg="12">
+      {/* <Col lg="12">
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <i className="bi bi-card-text me-2"> </i>
@@ -97,11 +97,11 @@ const Tables = () => {
             </Table>
           </CardBody>
         </Card>
-      </Col>
+      </Col> */}
       {/* --------------------------------------------------------------------------------*/}
       {/* table-3*/}
       {/* --------------------------------------------------------------------------------*/}
-      <Col lg="12">
+      {/* <Col lg="12">
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <i className="bi bi-card-text me-2"> </i>
@@ -140,7 +140,7 @@ const Tables = () => {
             </Table>
           </CardBody>
         </Card>
-      </Col>
+      </Col> */}
     </Row>
   );
 };
